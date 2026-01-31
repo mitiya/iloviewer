@@ -29,7 +29,7 @@ func main() {
 
 	if *urlFlag == "" {
 		fmt.Println("Usage example:")
-		fmt.Println("  iloviewer -url https://79.13.230.59:18020/ -login root -password tRvgt3iq -discurls \"http://192.168.6.1/proxmox-ve_9.1-1.iso;http://192.168.6.1/w10auto.iso\"")
+		fmt.Println(`iloviewer.exe -url https://example.com -login username -password pass -discurls "url1;url2"`)
 		fmt.Println("  iloviewer -debug -url ... (run with console for debugging)")
 		return
 	}
